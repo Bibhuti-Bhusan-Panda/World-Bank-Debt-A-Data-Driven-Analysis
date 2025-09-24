@@ -4,7 +4,7 @@
 ![Database](https://img.shields.io/badge/Database-PostgreSQL-orange.svg)
 ![Project](https://img.shields.io/badge/Project-Data_Analysis-green.svg)
 
-[cite_start]This project provides a comprehensive SQL-based analysis of international debt data from The World Bank[cite: 2]. [cite_start]The primary objective is to query a detailed dataset to extract meaningful insights about the debt owed by developing countries across various economic indicators[cite: 2].
+This project provides a comprehensive SQL-based analysis of international debt data from The World Bank. The primary objective is to query a detailed dataset to extract meaningful insights about the debt owed by developing countries across various economic indicators.
 
 ## Table of Contents
 - [About the Dataset](#about-the-dataset)
