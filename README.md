@@ -18,11 +18,11 @@ This project provides a comprehensive SQL-based analysis of international debt d
 The dataset is sourced from The World Bank and contains records of debt owed by various countries.
 
 * *Source*: The World Bank
-* *Content*: The data details long-term external debt for developing countries, broken down by various creditor types and repayment metrics[cite: 1, 2].
-* *File*: Debt Dataset.csv [cite: 1]
+* *Content*: The data details long-term external debt for developing countries, broken down by various creditor types and repayment metrics.
+* *File*: Debt Dataset.csv
 
 ### Dataset Schema
-The international_debt table has the following structure[cite: 1, 3]:
+The international_debt table has the following structure:
 | Column | Data Type | Description |
 |---|---|---|
 | country_name | varchar(50) | The name of the country. |
@@ -36,9 +36,9 @@ The international_debt table has the following structure[cite: 1, 3]:
 
 To replicate this analysis, you will need a SQL database system (e.g., PostgreSQL, MySQL).
 
-1.  *Create the Database*: Set up a new database named International_Debt[cite: 3].
+1.  *Create the Database*: Set up a new database named International_Debt.
 
-2.  *Create the Table*: Use the following SQL command to create the international_debt table[cite: 3]:
+2.  *Create the Table*: Use the following SQL command to create the international_debt table:
     sql
     CREATE TABLE international_debt
     (
@@ -50,20 +50,20 @@ To replicate this analysis, you will need a SQL database system (e.g., PostgreSQ
     );
     
 
-3.  *Import Data*: Import the data from the Debt Dataset.csv file into the newly created table[cite: 3].
+3.  *Import Data*: Import the data from the Debt Dataset.csv file into the newly created table.
 
 ## Analysis and Key Findings
 
 A series of SQL queries were executed to explore the data and answer critical questions about global debt.
 
 ### 1. How many distinct countries are in the dataset?
-The analysis identified a total of *124* distinct countries in the dataset[cite: 3].
+The analysis identified a total of *124* distinct countries in the dataset.
 
 ### 2. What is the total amount of debt owed by these countries?
-The combined debt of all countries across all indicators is approximately *$3.08 trillion USD*[cite: 3].
+The combined debt of all countries across all indicators is approximately *$3.08 trillion USD*.
 
 ### 3. Which country has the highest total debt?
-*China* holds the highest aggregate debt in the dataset[cite: 3]. The top 5 countries by total debt are:
+*China* holds the highest aggregate debt in the dataset. The top 5 countries by total debt are:
 1.  China
 2.  Brazil
 3.  India
@@ -71,13 +71,13 @@ The combined debt of all countries across all indicators is approximately *$3.08
 5.  Russian Federation
 
 ### 4. What is the average debt amount across different debt categories?
-The analysis shows that the "Principal repayments on external debt, long-term (AMT, current US$)" indicator has the highest average debt value, indicating large repayment sums across countries[cite: 3].
+The analysis shows that the "Principal repayments on external debt, long-term (AMT, current US$)" indicator has the highest average debt value, indicating large repayment sums across countries.
 
 ### 5. What is the highest principal repayment amount?
-The highest single record for principal repayments belongs to *China* for the indicator "Principal repayments on external debt, long-term (AMT, current US$)"[cite: 3].
+The highest single record for principal repayments belongs to *China* for the indicator "Principal repayments on external debt, long-term (AMT, current US$)".
 
 ### 6. What are the most common debt indicators?
-The most frequently occurring indicators in the dataset relate to principal repayments, interest payments, and disbursements from various creditor types (bilateral, multilateral, etc.)[cite: 3]. This suggests the data is comprehensive in tracking the full lifecycle of debt.
+The most frequently occurring indicators in the dataset relate to principal repayments, interest payments, and disbursements from various creditor types (bilateral, multilateral, etc.). This suggests the data is comprehensive in tracking the full lifecycle of debt.
 
 ## Tools Used
 * *SQL*: The primary language used for data querying, aggregation, and analysis.
